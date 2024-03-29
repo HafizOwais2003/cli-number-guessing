@@ -1,0 +1,24 @@
+{
+  "name": "prince-hafiz-khancli-number-guessing",
+  "version": "3.0.1",
+  "description": "this is cli based numbers guessing game",
+  "main": "index.js",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": {
+    "cli-number-guessing": "app.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.16"
+  },
+"devDependencies": {
+  "@types/node": "^9.0.7"
+}
+} 
